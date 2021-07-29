@@ -27,9 +27,12 @@ public class EmpleadoModelo {
     public EmpleadoModelo() {
     }
     
-    public void feature1(){
-    
+    public int feature1(int uno){
+        uno =1+uno;
+        return uno;
     }
+    
+    
 
     public EmpleadoModelo(String nombre) {
         this.nombre = nombre;
