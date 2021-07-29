@@ -31,6 +31,10 @@ public class EmpleadoModelo {
     
     }
 
+    public void feature2(){
+    
+    }
+    
     public EmpleadoModelo(String nombre) {
         this.nombre = nombre;
     }
